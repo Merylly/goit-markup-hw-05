@@ -661,9 +661,10 @@ img {
   margin-right: 8px;
 }
 
-.modal-checkbox:checked .custom-checkbox {
+.modal-checkbox:checked + .privacy-checkbox .custom-checkbox {
   background-color: var(--active-color);
   border: none;
+  fill: #F4F4FD;
 }
 
 .privacy-link {
